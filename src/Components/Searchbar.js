@@ -10,7 +10,7 @@ export default function Searchbar() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
+    // send browser to page with search query attached
     history.push(`/search?q=${term}`)
   }
 

@@ -1,3 +1,7 @@
+
+
+//Link and Navlink are used in react instead of a Tags they will not reload the entire
+// DOM but only components that need updating Navlink will apply active class to current  activelink
 import { Link } from 'react-router-dom'
 import Searchbar from './Searchbar'
 import { useTheme } from '../Hooks/useTheme'
